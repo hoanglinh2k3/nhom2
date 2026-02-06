@@ -1,11 +1,13 @@
+
+
 # nhom2
 nhom_2
 
 ## Thành viên nhóm:
-- Nguyễn Hoàng Linh - 2280601725
-- Trần Tấn Tới - 2280603320
-- Lê Đại Phát - 2280602295
-- Trịnh Công Sơn - 2280602769
+- Nguyễn Hoàng Linh - 2280601725 (hoanglinh2k3) (nhóm trưởng)
+- Trần Tấn Tới - 2280603320 (toiFriendly)
+- Lê Đại Phát - 2280602295 (LucasJr67)
+- Trịnh Công Sơn - 2280602769 (soncoderz)
 
 ## Mô tả đề tài:
 - Xây dựng trang web bán đồ decor, bao gồm các chức năng như thêm, sửa, xóa, và hiển thị thông tin sản phẩm.
