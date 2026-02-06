@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DecorHome - Website bán đồ trang trí nội thất cao cấp, mang lại không gian sống đẹp mắt và ấm cúng.">
+    <title>DecorHome - Trang trí nội thất hiện đại</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Preload font or critical assets here if needed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">DecorHome</a>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Trang chủ</a></li>
+                    <li><a href="#categories" class="nav-link">Danh mục</a></li>
+                    <li><a href="#featured" class="nav-link">Sản phẩm</a></li>
+                    <li><a href="#about" class="nav-link">Về chúng tôi</a></li>
+                    <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section id="hero" class="hero fade-in-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Biến ngôi nhà thành tổ ấm</h1>
+                <p>Khám phá bộ sưu tập đồ trang trí nội thất tinh tế, mang lại vẻ đẹp nhẹ nhàng và hiện đại cho không gian sống của bạn.</p>
+                <a href="#featured" class="btn btn-primary">Mua sắm ngay</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Không gian phòng khách hiện đại" loading="eager">
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="categories section-padding fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Danh mục sản phẩm</h2>
+            <div class="category-grid">
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tranh treo tường" loading="lazy">
+                    <h3>Tranh treo tường</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1576359877473-d92bc837facc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Đồ trang trí bàn" loading="lazy">
+                    <h3>Đồ trang trí bàn</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Đèn trang trí" loading="lazy">
+                    <h3>Đèn trang trí</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Gối ôm" loading="lazy">
+                    <h3>Gối ôm</h3>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1575414723300-0d0cb2385966?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Thảm trải sàn" loading="lazy">
+                    <h3>Thảm trải sàn</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured" class="featured section-padding fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Sản phẩm nổi bật</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Bình hoa gốm Pastel" loading="lazy">
+                        <span class="badge">Mới</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bình hoa gốm Pastel</h3>
+                        <p class="price">350.000₫</p>
+                        <button class="btn btn-outline">Thêm vào giỏ</button>
+                    </div>
+                </article>
+                <!-- Product 2 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Đèn ngủ để bàn" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Đèn ngủ để bàn</h3>
+                        <p class="price">550.000₫</p>
+                        <button class="btn btn-outline">Thêm vào giỏ</button>
+                    </div>
+                </article>
+                <!-- Product 3 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Set gối sofa" loading="lazy">
+                        <span class="badge">-10%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Set gối sofa</h3>
+                        <p class="price">420.000₫ <del>460.000₫</del></p>
+                        <button class="btn btn-outline">Thêm vào giỏ</button>
+                    </div>
+                </article>
+                <!-- Product 4 -->
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Kệ gỗ treo tường" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kệ gỗ treo tường</h3>
+                        <p class="price">280.000₫</p>
+                        <button class="btn btn-outline">Thêm vào giỏ</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story -->
+    <section id="about" class="about section-padding fade-in-section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2 class="section-title text-left">Về DecorHome</h2>
+                <p>Chúng tôi tin rằng mỗi ngôi nhà đều kể một câu chuyện riêng. Tại DecorHome, chúng tôi tận tâm tuyển chọn những món đồ trang trí độc đáo, mang phong cách pastel nhẹ nhàng, giúp bạn viết nên câu chuyện hạnh phúc trong chính không gian sống của mình.</p>
+                <p>Sự hài lòng của khách hàng và chất lượng sản phẩm bền vững là kim chỉ nam cho mọi hoạt động của chúng tôi.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Câu chuyện thương hiệu" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section-padding fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Khách hàng nói gì?</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="quote">"Sản phẩm rất đẹp, đóng gói cẩn thận. Màu sắc thực tế còn đẹp hơn trong ảnh. Chắc chắn sẽ ủng hộ shop dài dài!"</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Khách hàng Lan Anh" loading="lazy">
+                        <div>
+                            <h4>Lan Anh</h4>
+                            <span>Hà Nội</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"Tư vấn nhiệt tình, giao hàng nhanh. Mình mua bộ tranh treo tường mà ai đến nhà cũng khen."</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Khách hàng Minh Tuấn" loading="lazy">
+                        <div>
+                            <h4>Minh Tuấn</h4>
+                            <span>TP. HCM</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"Chất lượng tuyệt vời so với giá tiền. Phong cách pastel rất hợp với căn hộ của mình."</p>
+                    <div class="customer">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Khách hàng Thu Hà" loading="lazy">
+                        <div>
+                            <h4>Thu Hà</h4>
+                            <span>Đà Nẵng</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer fade-in-section">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>DecorHome</h3>
+                <p>Mang lại vẻ đẹp tinh tế cho ngôi nhà của bạn.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Liên hệ</h3>
+                <p>Địa chỉ: 123 Đường Pastel, Quận 1, TP.HCM</p>
+                <p>Email: hello@decorhome.vn</p>
+                <p>Hotline: 1900 1234</p>
+            </div>
+            <div class="footer-col">
+                <h3>Theo dõi chúng tôi</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DecorHome. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
